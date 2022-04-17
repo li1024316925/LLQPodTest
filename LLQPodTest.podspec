@@ -15,6 +15,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
+
   spec.homepage     = "http://EXAMPLE/LLQPodTest"
 
   spec.license      = "MIT"
@@ -23,7 +24,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/li1024316925/LLQPodTest.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "TestObject", "LLQPodTest/TestObject/**/**"
+  spec.source_files  = "TestObject", "LLQPodTest/LLQPodTest/TestObject/**/**"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.resource  = "icon.png"
