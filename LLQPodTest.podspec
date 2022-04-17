@@ -10,13 +10,24 @@ Pod::Spec.new do |spec|
 
   spec.name         = "LLQPodTest"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of LLQPodTest."
+  spec.ios.deployment_target = '9.0'
 
-  spec.description  = <<-DESC
-                   DESC
+  spec.summary      = "LLQPodTest"
+
+  spec.description  = "AdLauncher
+
+                    GuidePage
+  
+                    CustomServiceCall
+  
+                    GlobalSearch
+  
+                   LifeService
+  
+                    TLAuthorization"
 
 
-  spec.homepage     = "http://EXAMPLE/LLQPodTest"
+  spec.homepage     = "https://github.com/li1024316925/LLQPodTest.git"
 
   spec.license      = "MIT"
 
